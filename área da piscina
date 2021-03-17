@@ -94,7 +94,7 @@ public class CalculoM3 extends JFrame implements ActionListener{
             return;
         }
         
-        if(e.getSource() == btncalcular)
+        if(e.getSource() == btncalc)
         {
             area = (lar*prof*comp)*30;
             txtvalor.setText("" + area);
